@@ -5,6 +5,19 @@ h1{
 	margin-bottom: 40px;
 }
 
+.contact{
+	display: none;
+	width: 150px;
+	padding: 10px 0;
+	background-color: #eee;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+	color: #888;
+	font-size: 12px;
+}
+
 .main{
 	width: 990px;
 	height: 540px;
@@ -137,4 +150,66 @@ p{
   padding: 50px 20px;
   font-size: 14px;
   line-height: 2;
+}
+
+#modal-contact{
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+.contact{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  background-color: white;
+  padding: 50px 0;
+  border-radius: 10px;
+  width: 600px;
+  height: 500px;
+  text-align: center;
+}
+
+.contact h2{
+  color: rgb(75, 75, 75);
+}
+
+.fa-times{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+.contact input{
+  width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.contact textarea{
+  width: 400px;
+  height: 200px;
+  margin: auto;
+}
+
+#submit-btn{
+  display: inline-block;
+  padding: 15px 60px;
+  background-color: rgba(26, 188, 156, 1);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.thanks-msg{
+  font-size: 20px;
 }
