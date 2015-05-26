@@ -2,7 +2,8 @@ $(function(){
 
 	$('#read-more').click(function(){
 		$('#more-text').slideDown('slow',function(){
-      $('#read-more').fadeOut();
+      $('#read-more').hide();
+      $('#close').show();
     });
 
 	});
@@ -10,7 +11,8 @@ $(function(){
   $('#close').click(function() {
     /* Act on the event */
     $('#more-text').slideUp('slow',function(){
-      $('#read-more').fadeIn();
+      $('#read-more').show();
+      $('#close').hide();
     });
   });
 
