@@ -1,7 +1,18 @@
 $(function(){
+
 	$('#read-more').click(function(){
-		$('#more-text').slideToggle('slow');
+		$('#more-text').slideDown('slow',function(){
+      $('#read-more').fadeOut();
+    });
+
 	});
+
+  $('#close').click(function() {
+    /* Act on the event */
+    $('#more-text').slideUp('slow',function(){
+      $('#read-more').fadeIn();
+    });
+  });
 
 	$('.gallery-item').hover(
     function(){

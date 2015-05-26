@@ -50,18 +50,26 @@ p{
 	font-size: 12px;
 }
 
+#close{
+	background-color: #fff;
+	border: none; 
+	color: #888;
+	font-size: 12px;
+}
+
 #read-more{
 	width: 150px;
 	padding: 10px 0;
-	background-color: #dbdbdb;
+	background-color: #eee;
 	border-radius: 5px;
 	text-align: center;
 	cursor: pointer;
-	color: #fff;
+	color: #888;
+	font-size: 12px;
 }
 
 #read-more:hover{
-	background-color: #dbdbdb;
+	/*background-color: #eee;*/
 }
 
 .ttl{
