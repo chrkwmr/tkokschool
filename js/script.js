@@ -43,6 +43,5 @@ $(function(){
     $('#contact-form').html('<div class="thanks-msg">お問い合わせいただきありがとうございます。<br>内容が確認でき次第返信をさせていただきますので、<br>今しばらくお待ち下さい。</div>');
   });
 //contact
-
 	
 });

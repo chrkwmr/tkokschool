@@ -25,6 +25,7 @@ li{
 }
 
 .logo{
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
   font-weight: 100;
   padding-left: 100px;
   margin: 0;
@@ -127,6 +128,7 @@ li{
 }
 
 .read{
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
@@ -303,7 +305,7 @@ p{
 
 .steps li{
   float: left;
-  background-color: rgb(53, 170, 165);
+  background-color: #39d1b4;
   color: white;
   width: 60px;
   height: 60px;
@@ -315,11 +317,11 @@ p{
 }
 
 .steps li:hover{
-  background-color: rgb(54, 177, 172);
+  background-color: #88D5C5;
 }
 
 .steps li.active{
-  background-color: rgb(67, 216, 210);
+  background-color: #88D5C5;
   color: white;
 }
 
