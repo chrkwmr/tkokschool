@@ -5,18 +5,19 @@ h1{
 	margin-bottom: 40px;
 }
 
-.contact{
-	display: none;
-	width: 150px;
-	padding: 10px 0;
-	background-color: #eee;
-	border: none;
-	border-radius: 5px;
-	text-align: center;
-	cursor: pointer;
-	color: #888;
-	font-size: 12px;
+.header-right{
+  float: right;
+  margin-right: 15px;
 }
+
+.header-menu{
+  float: left;
+  padding: 0 20px;
+  line-height: 65px;
+  color: gray;
+  cursor: pointer;
+}
+
 
 .main{
 	width: 990px;
