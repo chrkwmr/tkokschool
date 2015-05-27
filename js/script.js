@@ -5,7 +5,6 @@ $(function(){
       $('#read-more').hide();
       $('#close').show();
     });
-
 	});
 
   $('#close').click(function() {
