@@ -4,21 +4,41 @@
 		<meta charset="UTF-8">
 		<title>test</title>
 		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/stylesheet.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+
 	</head>
 	<body>
-	<div id="wrapper">
+
+<div id="wrapper">
+
+	<div class="header">
+		<div class="header-left">
+	      <h1 class="logo">jQuery practice</h1>
+	    </div>
+
 		<div class="header-right">
-			<ul>
-				<li id="contact-show" class="header-menu">お問い合わせ</li>
-			</ul>
-		</div>
+	      <ul>
+	        <li class="header-menu">ログイン</li>
+	        <li id="contact-show" class="header-menu">お問い合わせ</li>
+	      </ul>
+	    </div>
+ 	</div>
+
+<div class="main-visual"><img src="img/10.jpg" height="620" width="1260" alt=""></div>
+
+	
 
 		<div class="main clearfix">
-			<div class="left">
+
+		<div class="innr">
+		<div class="read">Pickup Item</div>
+		<p class="sub-read">テキスタイルを使ったアイデア</p>
+		<div class="left">
 				<div class="intro">
-					<h2>SOLVINDEN</h2>
+					<h2>Wares: Edition Two</h2>
 					<p>LEDテーブルデコレーション, 洋ナシ形 ホワイト, 電池式</p>
 					<p class="tax">価格には消費税（8%）が含まれます。</p>
 
@@ -31,6 +51,10 @@
 
 							<div class="ttl">主な特徴<br>
 							<p>- どこでも使えます。ケーブルや電源プラグは必要ありません。<br>
+							- 光源にLEDを採用。白熱電球に比べて消費電力が約85％少なく、20倍長持ちします<br>
+							どこでも使えます。ケーブルや電源プラグは必要ありません。<br>
+							- 光源にLEDを採用。白熱電球に比べて消費電力が約85％少なく、20倍長持ちします<br>
+							どこでも使えます。ケーブルや電源プラグは必要ありません。<br>
 							- 光源にLEDを採用。白熱電球に比べて消費電力が約85％少なく、20倍長持ちします<br></p>
 							</div>
 
@@ -49,38 +73,83 @@
 
 			</div><!-- //left -->
 
-			<div class="right">
-				<img src="img/solvinden-ledteburudekoreshon-howaito__0316279_PE516198_S4.JPG" width="350" height="400" alt="">
-			</div><!-- //right -->
+			<div class="right clearfix">
+				<img src="img/solvinden-ledteburudekoreshon-howaito__0316279_PE516198_S4.JPG" width="260" height="280" alt="">
+			</div><!-- //right --></div>
+			
 		</div><!-- //main -->
 
 		<div class="gallery">
+		<div class="read">Furniture</div>
+		<p class="sub-read">まるごとリフォーム、それともほんの少し模様替え？</p>
 	      <div class="grid-row">
 	        <div class="col-4 gallery-item">
 	          <div class="gallery-cover">
 	            キッチンは、単に扉付きのキャビネットが並んでいる場所ではなく、家の中心になる場所です。だから、理想のキッチンを追求するのは当然のこと。キッチンのプランニングから設置まで、さまざまなサービスもご用意しています。
 	          </div>
-	          <div class="gallery-image"><img src="img/20141_kiro01h_01_PE376227.jpg" height="250" width="250"></div>
+	          <div class="gallery-image"><img src="img/20141_kiro01h_01_PE376227.jpg" height="180" width="180"></div>
 	          <div class="gallery-title">Kitchen</div>
 	        </div>
 	        <div class="col-4 gallery-item">
 	          <div class="gallery-cover">
 	            バスルームの模様替えは思ったよりずっと簡単。照明やデコレーション、テキスタイルやアクセサリーなど、目新しい小物をいくつかプラスするだけで、シンプルだけど効果的なリフレッシュになります。
 	          </div>
-	          <div class="gallery-image"><img src="img/5201512_idba07a_01_PH122014.jpg" height="250" width="250"></div>
+	          <div class="gallery-image"><img src="img/5201512_idba07a_01_PH122014.jpg" height="180" width="180"></div>
 	          <div class="gallery-title">Bathroom</div>
 	        </div>
 	        <div class="col-4 gallery-item">
 	          <div class="gallery-cover">
-	            洗濯はすすんでやりたくない仕事ですか？ 洗濯がたいへんな作業だと感じさせない秘訣があります。それは、もっと洗濯物の仕分けを簡単にして、省スペースなアイテムを使って干して、できるだけシンプルな方法で整理整頓をすること。洗濯がもっと簡単になれば、忙しい日は誰かに代わりにやってもらうこともできますよ。
+	            洗濯がたいへんな作業だと感じさせない秘訣があります。洗濯がもっと簡単になれば、忙しい日は誰かに代わりにやってもらうこともできますよ。
 	          </div>
-	          <div class="gallery-image"><img src="img/20144_cola02a_01_PH120858.jpg" height="250" width="250"></div>
+	          <div class="gallery-image"><img src="img/20144_cola02a_01_PH120858.jpg" height="180" width="180"></div>
 	          <div class="gallery-title">Laundry</div>
 	        </div>
 	      </div>
 	    </div><!-- //gallery -->
 
-	    <div id="modal-contact">
+	    <div class="steps">
+      <div class="read">Textile</div>
+      <p class="sub-read">テキスタイルを使ったアイデア</p>
+      <ul id="step-list">
+        <li class="step-list active">1</li>
+        <li class="step-list">2</li>
+        <li class="step-list">3</li>
+      </ul>
+      <div class="explain active">
+        <div class="image-part">
+          <img src="img/20151_idtx01a_01_PH121940.jpg" height="400" width="600" alt="">
+        </div>
+        <div class="explain-part">
+          <h2>オリジナルトートバッグをつくる簡単6ステップ</h2>
+          ここでご紹介する簡単なガイドにそって進めれば、<br>裁縫初心者もプロの裁縫師も、<br>
+          簡単にオリジナルトートバッグがつくれます。<br>短いビデオを見てインスピレーションをチェックしたら、<br>ガイドをダウンロードしてさっそくつくってみましょう。
+        </div>
+      </div>
+      <div class="explain">
+        <div class="image-part">
+          <img src="http://prog-8.com/images/top_editor_2.png">
+        </div>
+        <div class="explain-part">
+          <h2>オンラインエディタでの演習</h2>
+          スライドで得た知識をオンラインエディタでの演習によって身につけます。<br>
+          プログラミングはコードを書くことによってはじめて上達します。<br>
+          インストラクションに従ってコーディングしていきましょう。
+        </div>
+      </div>
+      <div class="explain">
+        <div class="image-part">
+          <img src="http://prog-8.com/images/top_outcome_2.png">
+        </div>
+        <div class="explain-part">
+          <h2>プレビューで結果を確認</h2>
+          エディタに書いたコードの結果をすぐに確認することができます。<br>
+          これにより自分の書いたコードにより何が起きたのかを理解しながら<br>
+          進めることが出来ます。
+        </div>
+      </div>
+    </div>
+
+	<div id="modal-contact">
     <div class="contact">
       <div id="close-contact"><i class="fa fa-2x fa-times"></i></div>
       <div id="contact-form">
@@ -93,7 +162,7 @@
       </div>
     </div>
   </div>
-	</div><!-- //wrapper -->
+</div><!-- //wrapper -->
 	
 	
 	<script src="js/script.js"></script>

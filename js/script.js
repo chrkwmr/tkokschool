@@ -14,6 +14,7 @@ $(function(){
       $('#close').hide();
     });
   });
+//readmore
 
 	$('.gallery-item').hover(
     function(){
@@ -23,17 +24,25 @@ $(function(){
       $(this).find('.gallery-cover').fadeOut();
     }
   );
+//gallery-item
 
+  //「お問い合わせ」ボタンが押されたときに
+  //「#modal-contact」を表示してください
   $('#contact-show').click(function(){
-    $('#modal-contact').hide();
+    $('#modal-contact').fadeIn('slow');
   });
-  //「閉じる」ボタンが押されたときに
-  //「#modal-contact」を隠してください
-
-  $('#submit-btn').click(function(){
-    $('#contact-form').html(<div class="thanks-msg">お問い合わせいただきありがとうございます。<br>内容が確認でき次第返信をさせていただきますので、<br>今しばらくお待ち下さい。</div>);
+  // 「閉じる」ボタンが押されたときに
+  // 「#modal-contact」を隠してください
+  $('#close-contact').click(function(){
+    $('#modal-contact').fadeOut('slow');
   });
+  
   //「送信」ボタンが押されたときに
   //「#contact-form」の中身を書きかえてください
+  $('#submit-btn').click(function(){
+    $('#contact-form').html('<div class="thanks-msg">お問い合わせいただきありがとうございます。<br>内容が確認でき次第返信をさせていただきますので、<br>今しばらくお待ち下さい。</div>');
+  });
+//contact
+
 	
 });
