@@ -43,5 +43,23 @@ $(function(){
     $('#contact-form').html('<div class="thanks-msg">お問い合わせいただきありがとうございます。</div>');
   });
 //contact
-	
+
+  //「.step-list」のどれかが押されたときに
+  $('.step-list').click(function(){
+    var index = $(this).index();
+
+    //「.step-list」全体から「active」クラスを取り除き
+    $('.step-list').removeClass('active');
+
+    //押されたものだけに「active」クラスを与え
+    $(this).addClass('active');
+
+    //「.explain」全体から「active」クラスを取り除き
+    $('.explain').removeClass('active');
+
+    //押された「.step-list」と同じインデックス番号をもつものだけに「active」クラスを与える
+    $('.explain').eq(index).addClass('active');
+  });
+//textile
+
 });
