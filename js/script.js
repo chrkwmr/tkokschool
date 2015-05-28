@@ -40,7 +40,7 @@ $(function(){
   //「送信」ボタンが押されたときに
   //「#contact-form」の中身を書きかえてください
   $('#submit-btn').click(function(){
-    $('#contact-form').html('<div class="thanks-msg">お問い合わせいただきありがとうございます。<br>内容が確認でき次第返信をさせていただきますので、<br>今しばらくお待ち下さい。</div>');
+    $('#contact-form').html('<div class="thanks-msg">お問い合わせいただきありがとうございます。</div>');
   });
 //contact
 	
